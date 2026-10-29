@@ -1,0 +1,30 @@
+# Copy to config.yaml and set paths for your own installation.
+# These are illustrative paths, not an installation bundled with this project.
+pscad:
+  exe: C:/PSCAD/bin/win64/Pscad.exe
+  install: C:/PSCAD
+  fortran: GFortran 4.6.2
+  silence: true
+  minimize: true
+
+paths:
+  home: work
+  templates: templates
+  cases: cases
+  runs: runs
+  baseline: baseline
+  assets: assets
+  logs: logs
+
+# Separate from other local installations. Change before starting a service if needed.
+service:
+  port: 46263
+
+run:
+  build_timeout: 300
+  run_timeout: 3600
+  poll: 1.0
+  stall_idle_build: 180
+  stall_idle_run: 300
+
+grid: 18

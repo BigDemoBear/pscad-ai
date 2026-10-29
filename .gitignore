@@ -1,0 +1,43 @@
+# Local configuration and credentials
+/config.yaml
+/mcp.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, caches and build output
+/.venv/
+/venv/
+/venv-mcp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+.pytest_cache/
+
+# Generated work and local/private materials
+/work/
+/_help/
+/assets/
+/cases/
+/runs/
+/tasks/
+/logs/
+/datasets/
+/baseline/
+/templates/
+*.gf46/
+*.exe
+*.dll
+*.obj
+*.o
+*.snp
+*.out
+*.inf
+*.log
+
+# Local development checks excluded from this publication
+/tests/
